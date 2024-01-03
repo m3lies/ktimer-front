@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PointsComponent } from './points/points.component';
 import { TimerComponent } from './timer/timer.component';
+import { PenaltiesComponent } from './penalties/penalties.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PointsComponent,
-    TimerComponent
+    TimerComponent,
+    PenaltiesComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
