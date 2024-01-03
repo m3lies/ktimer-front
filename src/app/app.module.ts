@@ -7,6 +7,7 @@ import { PointsComponent } from './points/points.component';
 import { TimerComponent } from './timer/timer.component';
 import { PenaltiesComponent } from './penalties/penalties.component';
 import { ViewComponent } from './view/view.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ViewComponent } from './view/view.component';
     PointsComponent,
     TimerComponent,
     PenaltiesComponent,
-    ViewComponent
+    ViewComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
